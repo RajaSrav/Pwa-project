@@ -33,9 +33,10 @@ request.onsuccess=function (e) {
             const image=document.createElement("img");
             image.src="img/raj.jpg";
             div.appendChild(image);
-            const h2 = document.createElement("h2");
-            h2.textContent = data[i].name;
-            div.appendChild(h2);
+            const a = document.createElement("a");
+            a.textContent = data[i].name;
+
+            div.appendChild(a);
             // const mail=document.createElement("h3");
 
             // a.appendChild(mail);
