@@ -1,0 +1,54 @@
+.heading {
+    background-color: #000fff;
+    text-align: center;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: bold;
+}
+.footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.add {
+    bottom: 23px;
+    width: 100%;
+    left: -10px;
+    position: fixed;
+    text-align: end;
+    font-size: 33px;
+}
+/* Card style first page */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rightDiv {
+    width: 60%;
+    background-color: #6d7173;
+    box-shadow: 3px 3px 3px #4ab336;
+    color: #ffff00;
+    margin: 1%;
+    text-align: center;
+    border: 3px solid #000fff;
+
+}
+.card,.leftDiv {
+    width: 33%;
+    background-color: #6d7173;
+    box-shadow: 3px 3px 3px #4ab336;
+    color: #ffff00;
+    margin: 1%;
+    text-align: center;
+    border: 3px solid #000fff;
+
+}
+img {
+    width: 90%;
+    border-radius: 33px;
+}
+/* -- Form style --*/
